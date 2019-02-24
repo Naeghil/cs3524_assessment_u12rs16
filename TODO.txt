@@ -1,0 +1,3 @@
+TODOS:
+
+1. Maybe have a remote user object, on which the server spawning depends? login, logout and other stuff
