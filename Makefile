@@ -1,12 +1,17 @@
 JFLAGS = -sourcepath ./src/ -classpath ./bin/ -d ./bin/ -Xlint:unchecked -g
 JC = javac
 
-all: server mud client
+all: mud utils interfaces server client
+
+interfaces:
+	$(JC) $(JFLAGS) src/interfaces/MainlineInterface.java
+	$(JC) $(JFLAGS) src/interfaces/ClientInterface.java
+	$(JC) $(JFLAGS) src/interfaces/ServerInterface.java	
 
 server:
-	$(JC) $(JFLAGS) src/server/MUDServerInterface.java
-	$(JC) $(JFLAGS) src/server/MUDServerImpl.java
-	$(JC) $(JFLAGS) src/server/MUDMainline.java
+	$(JC) $(JFLAGS) src/server/Mainline.java
+	$(JC) $(JFLAGS) src/server/Server.java
+	$(JC) $(JFLAGS) src/server/PlayingCharacter.java
 
 mud:
 	$(JC) $(JFLAGS) src/mud/Vertex.java
@@ -14,7 +19,12 @@ mud:
 	$(JC) $(JFLAGS) src/mud/MUD.java
 
 client:
-	$(JC) $(JFLAGS) src/MUDClient.java
+	$(JC) $(JFLAGS) src/client/Client.java
+	$(JC) $(JFLAGS) src/client/Main.java
+	
+utils:
+	$(JC) $(JFLAGS) src/utils/text.java
+	$(JC) $(JFLAGS) src/utils/GameFile.java
 
 uninst:
 	rm -rf bin/*

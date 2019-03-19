@@ -1,3 +1,4 @@
 TODOS:
-
-1. Maybe have a remote user object, on which the server spawning depends? login, logout and other stuff
+- Make a chat/whisper funcion
+- Consider loading all characters at serverstart and the having or not an associated client determines their online status
+- Every n server ops have the server backup and check the pcs (by remoteexception)

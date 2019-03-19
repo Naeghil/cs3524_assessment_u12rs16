@@ -48,8 +48,6 @@ class Vertex
 	    direction = (String)iter.next();
 	    summary += "To the " + direction + " there is " + ((Edge)_routes.get( direction ))._view + "\n";
 	}
-	
-	summary += "\n";
 	return summary;
     }
 }

@@ -1,0 +1,127 @@
+makeworld testSimpleMazeWorld
+C north 24 a dark corridor
+24 south C a dark corridor
+11 south 21 a dark corridor
+12 east 13 a dark corridor
+13 west 12 a dark corridor
+13 south 23 a dark corridor
+13 east 14 a dark corridor
+14 west 13 a dark corridor
+14 south 24 a dark corridor
+14 east 15 a dark corridor
+15 west 14 a dark corridor
+15 south 25 a dark corridor
+15 east 16 a dark corridor
+16 west 15 a dark corridor
+16 east 17 a dark corridor
+17 west 16 a dark corridor
+18 south 28 a dark corridor
+21 north 11 a dark corridor
+21 east 22 a dark corridor
+21 south 31 a dark corridor
+22 west 21 a dark corridor
+22 east 23 a dark corridor
+23 north 13 a dark corridor
+23 west 22 a dark corridor
+24 north 14 a dark corridor
+25 north 15 a dark corridor
+25 east 26 a dark corridor
+26 west 25 a dark corridor
+26 south 36 a dark corridor
+26 east 27 a dark corridor
+27 west 26 a dark corridor
+28 north 18 a dark corridor
+28 south 38 a dark corridor
+31 north 21 a dark corridor
+31 east 32 a dark corridor
+32 west 31 a dark corridor
+32 south 42 a dark corridor
+36 north 26 a dark corridor
+36 south 46 a dark corridor
+37 south 47 a dark corridor
+37 east 38 a dark corridor
+38 north 28 a dark corridor
+38 west 37 a dark corridor
+42 north 32 a dark corridor
+42 west 41 a dark corridor
+41 south 51 a dark corridor
+41 east 42 a dark corridor
+46 north 36 a dark corridor
+46 south 56 a dark corridor
+47 north 37 a dark corridor
+47 south 57 a dark corridor
+47 east 48 a dark corridor
+48 west 47 a dark corridor
+48 east O is that...light?
+O west 48 a door giving on a dark corridor
+51 north 41 a dark corridor
+51 south 61 a dark corridor
+52 south 62 a dark corridor
+56 north 46 a dark corridor
+57 north 47 a dark corridor
+57 south 67 a dark corridor
+58 south 68 a dark corridor
+61 north 51 a dark corridor
+61 south 71 a dark corridor
+61 east 62 a dark corridor
+62 north 52 a dark corridor
+62 west 61 a dark corridor
+63 east 64 a dark corridor
+64 west 63 a dark corridor
+64 south 74 a dark corridor
+65 east 66 a dark corridor
+66 west 65 a dark corridor
+66 south 76 a dark corridor
+66 east 67 a dark corridor
+67 north 57 a dark corridor
+67 west 66 a dark corridor
+67 south 77 a dark corridor
+67 east 68 a dark corridor
+68 north 58 a dark corridor
+68 west 67 a dark corridor
+68 south 78 a dark corridor
+71 north 61 a dark corridor
+71 south 81 a dark corridor
+71 east 72 a dark corridor
+72 west 71 a dark corridor
+72 east 73 a dark corridor
+73 west 72 a dark corridor
+73 east 74 a dark corridor
+74 north 64 a dark corridor
+74 west 73 a dark corridor
+74 south 84 a dark corridor
+75 south 85 a dark corridor
+75 east 76 a dark corridor
+76 north 66 a dark corridor
+76 west 75 a dark corridor
+77 north 67 a dark corridor
+77 south 87 a dark corridor
+78 north 68 a dark corridor
+81 north 71 a dark corridor
+82 east 83 a dark corridor
+83 west 82 a dark corridor
+83 east 84 a dark corridor
+84 north 74 a dark corridor
+84 west 83 a dark corridor
+84 east 85 a dark corridor
+85 north 75 a dark corridor
+85 west 84 a dark corridor
+86 east 87 a dark corridor
+87 west 86 a dark corridor
+87 north 77 a dark corridor
+87 east 88 a dark corridor
+88 west 87 a dark corridor
+
+C This is a large square room of stone walls, of about 3 feet square. You woke up here with no memory on how you got here.
+O After all that darkness, the light hurts your eyes for a bit. You're in a beautiful green field, finally in the open world. Let's hope you can find your way to civilization.
+
+C ration
+11 ration
+14 ration
+18 ration
+51 ration
+58 ration
+83 ration
+88 ration
+
+

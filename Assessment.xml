@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Notepadqq>
     <View>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/MUDClient.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/server/MUDMainline.java" cacheFilePath="" scrollX="0" scrollY="264" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/server/MUDServerImpl.java" cacheFilePath="" scrollX="0" scrollY="17" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/server/MUDServerInterface.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/mud/MUD.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/mud/Edge.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/mud/Vertex.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/worlds/worldslist.uni" cacheFilePath="" scrollX="0" scrollY="0" language="plaintext"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/TODO.txt" cacheFilePath="" scrollX="0" scrollY="0" language="plaintext"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/utils/text.java" cacheFilePath="" scrollX="0" scrollY="639" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/utils/GameFile.java" cacheFilePath="" scrollX="0" scrollY="763" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/client/Main.java" cacheFilePath="" scrollX="0" scrollY="668" language="java" active="1"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/client/Client.java" cacheFilePath="" scrollX="0" scrollY="1369" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/server/Server.java" cacheFilePath="" scrollX="0" scrollY="1101" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/interfaces/ServerInterface.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/server/PlayingCharacter.java" cacheFilePath="" scrollX="0" scrollY="164" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/server/Mainline.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/interfaces/ClientInterface.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
         <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/Makefile" cacheFilePath="" scrollX="0" scrollY="0" language="plaintext"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/start.sh" cacheFilePath="" scrollX="0" scrollY="0" language="bash"/>
-        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/TODO.txt" cacheFilePath="" scrollX="0" scrollY="0" language="plaintext" active="1"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/interfaces/MainlineInterface.java" cacheFilePath="" scrollX="0" scrollY="0" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/mud/MUD.java" cacheFilePath="" scrollX="0" scrollY="2149" language="java"/>
+        <Tab filePath="/home/naeghil/3524/cs3524_assessment_u12rs16/src/mud/Vertex.java" cacheFilePath="" scrollX="0" scrollY="272" language="java"/>
     </View>
 </Notepadqq>

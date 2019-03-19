@@ -129,7 +129,7 @@ public class MUD {
 			while((line = things.readLine()) != null) {
 				StringTokenizer st = new StringTokenizer( line );
 				if( st.countTokens( ) < 2 ) {
-					System.err.println( "Skipping ill-formatted line " + line );
+					System.err.println( "Skipping ill-formatted line: '" + line+"'" );
 					continue;
 				}
 				String loc = st.nextToken();
@@ -153,7 +153,7 @@ public class MUD {
 		recordThings( thingsfile );
 
 		System.out.println( "Files read..." );
-		System.out.println( vertexMap.size( ) + " vertices\n" );
+		System.out.println( vertexMap.size( ) + " vertices" );
     }
 
     // Display the entire MUD (mostly for testing purposes)
@@ -187,7 +187,7 @@ public class MUD {
     }
 
     // Remove a thing from a location
-    public void delThing( String loc, String thing ) {
+    public void delThing( String loc, String thing ) throws NullPointerException {
 		Vertex v = getVertex( loc );
 		v._things.remove( thing );
     }
